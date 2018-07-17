@@ -1,7 +1,36 @@
-#gradient {
+/*gradient {
   background: red; /* For browsers that do not support gradients */
   background: -webkit-linear-gradient(left top, #ee0979, #ff6a00); /* For Safari 5.1 to 6.0 */
   background: -o-linear-gradient(bottom right, #ee0979, #ff6a00); /* For Opera 11.1 to 12.0 */
   background: -moz-linear-gradient(bottom right, #ee0979, #ff6a00); /* For Firefox 3.6 to 15 */
   background: linear-gradient(to bottom right, #ee0979, #ff6a00); /* Standard syntax */
+}
+*/
+background: linear-gradient(220deg, #ac00ff, #1900ff, #16b100, #f9d502, #ff7f00, #ff0000);
+background-size: 1200% 1200%;
+
+-webkit-animation: gradient 52s ease infinite;
+-moz-animation: gradient 52s ease infinite;
+-o-animation: gradient 52s ease infinite;
+animation: gradient 52s ease infinite;
+
+@-webkit-keyframes gradient {
+    0%{background-position:0% 99%}
+    50%{background-position:100% 2%}
+    100%{background-position:0% 99%}
+}
+@-moz-keyframes gradient {
+    0%{background-position:0% 99%}
+    50%{background-position:100% 2%}
+    100%{background-position:0% 99%}
+}
+@-o-keyframes gradient {
+    0%{background-position:0% 99%}
+    50%{background-position:100% 2%}
+    100%{background-position:0% 99%}
+}
+@keyframes gradient { 
+    0%{background-position:0% 99%}
+    50%{background-position:100% 2%}
+    100%{background-position:0% 99%}
 }
